@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*header*/
+header section{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+	background-color: grey;
+}
+
+/* "logo" */
+#titulo-atividade {
+
+	color: white;
+}
+
+header section nav ul {
+	display: flex;
+}
+
+header section nav ul li {
+	padding: 15px;
+}
+
+header section nav ul li a {
+	color: white;
+	font-size: 1.5rem;
+}
+
+header section nav ul li a:visited {
+	color: white;
+}
+
+header section nav ul li a:active {
+	color: white;
+}
+
+
+
+
+/*main*/
+main section  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: lightsalmon;
+}
+
+main section article {
+	text-align: center;
+
+}
+
+main section article h1 {
+	color: grey;
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+}
+
+main section article h2 {
+	color: white;
+	font-size: 1.4rem;
+	margin-bottom: 15px;
+}
+
+
+main section article ul li{
+	color: grey;
+	font-size: 1.2rem;
+	padding: 2px;
+}
+
+main section article ol li{
+	color: white;
+	list-style: number;
+	padding: 2px;
+	font-size: 1.2rem;
+}
+
+/*footer*/
+footer {
+	height: 200px;
+	background-color: grey;
+	text-align: center;
+	padding: 15px;
+}
+
+
+
+
+footer ul li {
+	padding: 5px;
+}
+
+
+footer ul li a{
+	color: white;
+	font-size: 1.3rem;
+}
+
+
+footer ul li a:active {
+	color: white;
+}
+
+footer ul li a:visited{
+	color: white;
+}
+
+footer p {
+	font-size: 1.5rem;
+	color: lightsalmon;
+}
+
+
+
+/*Formulário*/
+
+.campo {
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.btnForm {
+	cursor: pointer;
+}
+
