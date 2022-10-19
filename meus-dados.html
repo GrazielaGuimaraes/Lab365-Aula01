@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulário dos meus dados</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+ 
+ <header>
+ 	
+ 	<section>
+ 		<h1 id="Formulário"></h1>
+
+ 		<nav>
+ 			<ul>
+ 				<li><a href="index.html">Voltar</a></li>
+ 				<li><a href="#footer">Redes Sociais</a></li>
+ 			</ul>
+ 		</nav>
+ 	</section>
+
+ </header>
+
+
+<main>
+	<section>
+		<article>
+			
+
+			<fieldset>
+				<legend>Meus dados</legend>
+
+				<br>
+
+				<form>
+					<label>* Nome:</label> <br>
+					<input type="text" name="nome" id="nome" size="50" maxlength="100" class="campo"> <br><br>
+
+					<label>* Idade:</label> <br>
+					<input type="number" name="idade" id="idade" size="50" maxlength="3" class="campo"> <br><br>
+
+					<label>* Profissão:</label> <br>
+					<select id="profissao" class="campo">
+						
+						<option value="">-Selecione-</option>
+
+						<option value="Cientista de dados">Cientista de dados</option>
+
+						<option value="Administrador(a) de redes">Administrador(a) de redes</option>
+
+						<option value="Web design">Web design</option>
+
+						<option value="Design gráfico">Design gráfico</option>
+
+						<option value="Engenheiro(a) de software">Engenheiro(a) de software</option>
+
+						<option value="Desenvolvedor front-end">Desenvolvedor(a) front-end</option>
+
+						<option value="Desenvolvedor back-end">Desenvolvedor(a) back-end</option>
+
+						<option value="Desenvolvedor fullstack">Desenvolvedor(a) fullstack</option>
+
+
+					</select> <br><br>
+
+					<label>* Objetivo no Floripa Mais Tec</label> <br><br>
+					<input type="checkbox" name="objetivo" id="objOportunidade" value="Oportunidade de emprego">
+					<label for="objOportunidade">Oportunidade de emprego</label> 
+					 
+
+					<input type="checkbox" name="objetivo" id="objCuriosidade" value="Por curiosidade">
+					<label for="objCuriosidade">Por curiosidade</label> 
+					 <br><br>
+
+					<input type="button" id="btnEnviar" onclick="validar()" value="Enviar" class="campo" class="btnForm">
+
+				</form>
+
+
+
+
+			</fieldset>
+
+
+
+
+
+		</article>
+	</section>
+</main>
+
+
+<footer id="footer">
+	<ul>
+		<li><a href="#"><img src="./imagens/github.png"></a></li>
+		<li><a href="#"><img src="./imagens/linkedin.png"></a></li>
+	</ul>
+	<p>Desenvolvido por Graziela Guimarães - 2022</p>
+</footer>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
