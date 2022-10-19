@@ -40,20 +40,15 @@ function validar() {
 
 
 
+		//Limpa os campos antes de mostrar no console
+		limpar()
+
 		console.log('Nome: ' + nome)
 		console.log('Idade: ' + idade + ' anos. Você é ' + maiorIdade)
 		console.log('Profissão: ' + profissao)
 		console.log('Objetivo no Floripa Mais Tec: ' + objetivo)
 
 		   
-
-	
-	//Limpa os campos antes de mostrar no console
-	limpar()
-
-
-
-
 
 		} else{
 
